@@ -1,0 +1,9 @@
+{
+  "name": "process_starter",
+  "version": "0.0.1",
+  "dependencies": {
+    "zmq": "onicollet/zmq",
+    "mkdirp": "*",
+    "optimist": "*"
+  }
+}
