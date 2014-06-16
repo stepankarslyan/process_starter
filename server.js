@@ -2,8 +2,6 @@ var fs = require("fs");
 var mkdirp = require("mkdirp");
 var zmq = require("zmq");
 var responder = zmq.socket("asyncrep");
-var requester = zmq.socket("asyncreq");
-requester.connect("tcp://localhost:4040");
  
 var argv = require('optimist')
     .default({ 
